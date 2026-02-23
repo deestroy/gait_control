@@ -1,0 +1,3 @@
+[submodule "external/spot_mini_mini"]
+	path = external/spot_mini_mini
+	url = https://github.com/OpenQuadruped/spot_mini_mini.git
