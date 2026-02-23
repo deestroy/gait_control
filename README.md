@@ -1,4 +1,5 @@
-quad_snn_cpg/
+# File Structure
+```quad_snn_cpg/
   sim/
     pybullet_env.py          # loads URDF, steps physics, exposes sensors + applies torques
     spotmicro_assets/        # URDF + meshes
@@ -19,3 +20,4 @@ quad_snn_cpg/
     logs/
   paper/
     ieee_template/
+```
