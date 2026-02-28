@@ -17,7 +17,7 @@ class CPGDrive:
 
         self.g = NeuronGroup(20, eqs, threshold="v>1", reset="v=0", method="euler")
         self.g.v = 0
-        self.g.I = '1.03 + 0.04*rand()'
+        self.g.I = '1.02 + 0.06*rand()'
         self.g.tau = 0.05 * second
         self.g.v = 'rand()'
 
